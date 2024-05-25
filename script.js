@@ -1,6 +1,4 @@
 document.getElementById('openButton').addEventListener('click', function() {
-    console.log('Button clicked'); // This line logs a message to the console when the button is clicked
-
     var envelope = document.getElementById('envelope');
     var content = document.getElementById('content');
     var cover = document.getElementById('cover');
