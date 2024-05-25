@@ -97,12 +97,13 @@ p {
     text-align: center;
 }
 
+/* Adjust positioning of Happy Birthday message */
 .birthday-message {
     position: absolute;
-    top: 10%;
+    top: 10px; /* Adjust distance from top */
     left: 50%;
     transform: translateX(-50%);
-    font-size: 12px;
+    font-size: 36px;
     color: #ff5722;
     font-weight: bold;
     opacity: 0;
