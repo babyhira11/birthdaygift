@@ -97,10 +97,9 @@ p {
     text-align: center;
 }
 
-/* Adjust positioning of Happy Birthday message */
 .birthday-message {
-    position: relative;
-    top: 50px; /* Adjust distance from top */
+    position: absolute;
+    top: 10px; /* Adjust distance from the top */
     left: 50%;
     transform: translateX(-50%);
     font-size: 36px;
@@ -110,6 +109,7 @@ p {
     transition: opacity 1s;
     z-index: 6;
 }
+
 
 #confetti {
     position: absolute;
