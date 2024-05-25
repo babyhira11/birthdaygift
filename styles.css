@@ -99,10 +99,10 @@ p {
 
 .birthday-message {
     position: absolute;
-    top: 20px;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
-    font-size: 48px;
+    font-size: 36px;
     color: #ff5722;
     font-weight: bold;
     opacity: 0;
