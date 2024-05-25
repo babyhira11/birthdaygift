@@ -15,3 +15,19 @@ document.getElementById('openButton').addEventListener('click', function() {
     // Start confetti effect immediately
     startConfetti();
 });
+
+// Confetti effect
+function startConfetti() {
+    const confettiContainer = document.getElementById('confetti');
+    const confettiCount = 100;
+    const colors = ['#ff5722', '#ff9800', '#ffeb3b', '#4caf50', '#2196f3', '#9c27b0'];
+
+    for (let i = 0; i < confettiCount; i++) {
+        const confetti = document.createElement('div');
+        confetti.classList.add('confetti');
+        confetti.style.backgroundColor = colors[Math.floor(Math.random() * colors.length)];
+        confetti.style.left = Math.random() * 100 + 'vw';
+        confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
+        confettiContainer.appendChild(confetti);
+    }
+}
