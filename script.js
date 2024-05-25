@@ -8,16 +8,10 @@ document.getElementById('openButton').addEventListener('click', function() {
     // Animate the envelope opening
     cover.style.transform = 'rotateX(-180deg)';
 
-    // Show the content and birthday message after a delay
-    setTimeout(function() {
-        content.style.opacity = 1;
-        birthdayMessage.style.opacity = 1;
-        // Start confetti effect
-        startConfetti();
-    }, 1000);
-});
+    // Show the content and birthday message immediately
+    content.style.opacity = 1;
+    birthdayMessage.style.opacity = 1;
 
-// Confetti effect
-function startConfetti() {
-    const confettiContainer = document.getElementById('confetti');
-    const
+    // Start confetti effect immediately
+    startConfetti();
+});
