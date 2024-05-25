@@ -100,7 +100,7 @@ p {
 /* Adjust positioning of Happy Birthday message */
 .birthday-message {
     position: absolute;
-    top: 10px; /* Adjust distance from top */
+    top: 50px; /* Adjust distance from top */
     left: 50%;
     transform: translateX(-50%);
     font-size: 36px;
