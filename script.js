@@ -13,6 +13,11 @@ document.getElementById('openButton').addEventListener('click', function() {
         content.style.opacity = 1;
         birthdayMessage.style.opacity = 1;
         // Start confetti effect
-        confetti.style.animation = 'confetti-fall 5s linear infinite'; // Start continuous confetti animation
+        startConfetti();
     }, 1000);
 });
+
+// Confetti effect
+function startConfetti() {
+    const confettiContainer = document.getElementById('confetti');
+    const
