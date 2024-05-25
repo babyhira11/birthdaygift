@@ -1,9 +1,10 @@
 document.getElementById('openButton').addEventListener('click', function() {
     var envelope = document.getElementById('envelope');
     var content = document.getElementById('content');
+    var cover = document.getElementById('cover');
 
     // Animate the envelope opening
-    envelope.querySelector('.cover').style.transform = 'rotateX(-180deg)';
+    cover.style.transform = 'rotateX(-180deg)';
 
     // Show the content after a delay
     setTimeout(function() {
