@@ -30,9 +30,4 @@ function startConfetti() {
         confetti.style.animationDuration = Math.random() * 3 + 2 + 's';
         confettiContainer.appendChild(confetti);
     }
-
-    // Remove confetti after animation
-    setTimeout(() => {
-        confettiContainer.innerHTML = '';
-    }, 7000);
 }
